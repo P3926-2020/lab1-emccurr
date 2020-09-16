@@ -17,7 +17,7 @@ def collatz(n):
   return(counter)
 
 starttime = time.time()
-#creating lists to add to for each x in range
+#creating lists to add to for each x in range, 0 occupies 0th space in list
 l = [0]
 l1 = [0]
 for x in range (1,1000000):
@@ -49,4 +49,6 @@ plt.ylabel('C(n)')
 plt.xlabel('log10(n)')
 plt.show()
 
-
+#Output data recieved: Integer with max. iterations is 837799
+#This integer has 524 iterations
+#Completed in 44.43645691871643 s
