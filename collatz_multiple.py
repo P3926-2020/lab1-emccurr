@@ -33,6 +33,7 @@ for x in range (1,1000000):
 maxC=max(l)
 integer=l.index(maxC)
 print("Integer with max. iterations is",integer)
+print("This integer has",maxC,"iterations")
 
 endtime = time.time()
 
@@ -47,3 +48,5 @@ plt.title('C(n) versus log10(n)')
 plt.ylabel('C(n)')
 plt.xlabel('log10(n)')
 plt.show()
+
+
